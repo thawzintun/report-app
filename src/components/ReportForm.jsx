@@ -15,7 +15,6 @@ const ReportForm = () => {
 export default ReportForm;
 
 export const action = async ({ request }) => {
-    const data = await request.formData();
     const url =
         "https://api.live.sing.musoniservices.com/v1/fixeddepositaccounts";
     const api = "1P8Rsli9pO5cHoSpyDOeDCLH3nIQTIG85gMfxOXh";
