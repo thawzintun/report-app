@@ -1,9 +1,9 @@
 import React from "react";
 import ReportForm from "../components/ReportForm";
-import { useActionData, useLoaderData } from "react-router-dom";
+import { useActionData } from "react-router-dom";
 
 const Home = () => {
-    const actionData = useLoaderData();
+    const actionData = useActionData();
     console.log(actionData);
     return (
         <>
